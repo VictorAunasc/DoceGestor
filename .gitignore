@@ -1,0 +1,33 @@
+### Laravel / PHP ###
+/confeitaria-api/vendor/
+/confeitaria-api/node_modules/
+/confeitaria-api/storage/*.key
+/confeitaria-api/storage/app/*
+!/confeitaria-api/storage/app/public/
+ /confeitaria-api/storage/framework/*
+/confeitaria-api/storage/logs/*
+/confeitaria-api/bootstrap/cache/*.php
+/confeitaria-api/.env
+/confeitaria-api/.env.*
+
+### Vue / Front ###
+/confeitaria-vue/node_modules/
+/confeitaria-vue/dist/
+/confeitaria-vue/.env
+/confeitaria-vue/.env.*
+
+### Gerais ###
+*.log
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# não versionar a pasta de vídeos do TCC
+/Video/
+
+# se quiser garantir que nenhum .mp4 seja versionado em lugar nenhum:
+*.mp4
